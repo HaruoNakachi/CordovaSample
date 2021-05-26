@@ -21,9 +21,22 @@
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
 
-function onDeviceReady() {
-    // Cordova is now initialized. Have fun!
-
-    console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
-    document.getElementById('deviceready').classList.add('ready');
+function onDeviceReady() { 
+   
+    const code = document.getElementById("code");
+    const btnCopy = document.getElementById("btnCopy");
+    const btnPaste = document.getElementById("btnPaste");
+    const inputText = document.getElementById("inputCode");
+    
+    btnCopy.addEventListener('click', () =>{ 
+        cordova.plugins.clipboard.copy(code.textContent);
+    }) 
+    btnPaste.addEventListener('click', () =>{ 
+        cordova.plugins.clipboard.paste( (text) => { 
+            inputText.value  = text;
+         });
+    }) 
+   
+  
 }
+

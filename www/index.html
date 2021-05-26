@@ -38,12 +38,24 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        <div class="app"> 
+          <div class="box-copy-paste">
+              <h2>Copy & Paste Example</h2>
+            <span id="code">123456789</span>
+            <div class="box-promotion"> 
+                <button typ="button" id="btnCopy" class="btn-copy">Click Copy</button>
+                <button typ="button" id="btnPaste" class="btn-paste">Click Paste</button>
             </div>
+            <input id="inputCode" type="text" value=""> 
+          </div>
+          <div class="box-copy-paste">
+            <h2>In-App purchase Example</h2> 
+          <div class="box-promotion"> 
+                <span>Total: 1000</span>
+              <button typ="button" id="btnPayment" class="btn-payment">Payment</button>
+          </div>
+          <input id="inputCode" type="text" value=""> 
+        </div>
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
