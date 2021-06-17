@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "my-release-key.keystore",
+            "storePassword": "truong",
+            "alias": "alias_name",
+            "password" : "truong",
+            "keystoreType": "",
+            "packageType": "apk"
+        },
+        "release": {
+            "keystore": "my-release-key.keystore",
+            "storePassword": "truong",
+            "alias": "alias_name",
+            "password" : "truong",
+            "keystoreType": "",
+            "packageType": "bundle"
+        }
+    }
+}
