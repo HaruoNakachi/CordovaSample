@@ -1,33 +1,54 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <!--
-    Customize this policy to fit your own app's needs. For more guidance, see:
-        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-    Some notes:
-        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-            * Enable inline JS: add 'unsafe-inline' to default-src
-    -->
-    <meta http-equiv="Content-Security-Policy"
-  content="default-src 'self' 'unsafe-inline' [...]" />
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-    <meta name="color-scheme" content="light dark">
-    <title>cordovasample</title>
-    <script src=”cordova.js”></script>
-    <link href=../../static/css/app.30790115300ab27614ce176899523b62.css rel=stylesheet>
-</head>
-
-<body>
-    <div id=app></div>
-    <script type=text/javascript src=../../static/js/manifest.82f431004cf9bb6ad2cb.js></script>
-    <script type=text/javascript src=../../static/js/vendor.00fd1187b9feb53d362b.js></script>
-    <script type=text/javascript src=../../static/js/app.b22ce679862c47a75225.js></script>
-</body>
-
-</html>
+<head><link href=../../static/css/app.e7d41b95f96ae5ef7a6f7c821e2ce23e.css rel=stylesheet></head>Html Webpack Plugin:<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve '/Users/seven/Sources/Nakachi/Cordova  Sample/index.html' in '/Users/seven/Sources/Nakachi/CordovaSample':
+  Error: Can't resolve '/Users/seven/Sources/Nakachi/CordovaSample/index.html' in '/  Users/seven/Sources/Nakachi/CordovaSample'
+  
+  - compiler.js:76 
+    [CordovaSample]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:300 
+    [CordovaSample]/[webpack]/lib/Compiler.js:300:11
+  
+  - Compiler.js:510 
+    [CordovaSample]/[webpack]/lib/Compiler.js:510:14
+  
+  - Tapable.js:202 next
+    [CordovaSample]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [CordovaSample]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [CordovaSample]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:507 
+    [CordovaSample]/[webpack]/lib/Compiler.js:507:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [CordovaSample]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:683 
+    [CordovaSample]/[webpack]/lib/Compilation.js:683:19
+  
+  - Tapable.js:202 next
+    [CordovaSample]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:126 LastCallWebpackPlugin.process
+    [CordovaSample]/[last-call-webpack-plugin]/index.js:126:12
+  
+  - index.js:197 Compilation.<anonymous>
+    [CordovaSample]/[last-call-webpack-plugin]/index.js:197:12
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [CordovaSample]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:674 
+    [CordovaSample]/[webpack]/lib/Compilation.js:674:11
+  
+  - Tapable.js:202 next
+    [CordovaSample]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:126 LastCallWebpackPlugin.process
+    [CordovaSample]/[last-call-webpack-plugin]/index.js:126:12
+  
+</anonymous></anonymous></pre><script type=text/javascript src=../../static/js/manifest.82f431004cf9bb6ad2cb.js></script><script type=text/javascript src=../../static/js/vendor.00fd1187b9feb53d362b.js></script><script type=text/javascript src=../../static/js/app.21babbdee980fa9024bf.js></script>
