@@ -34,6 +34,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new UglifyJsPlugin({
       uglifyOptions: {
+        safari10: true,
         compress: {
           warnings: false
         }
