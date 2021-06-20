@@ -1,0 +1,6 @@
+{
+    "Security.framework": 1,
+    "SystemConfiguration.framework": 2,
+    "CoreTelephony.framework": 1,
+    "StoreKit.framework": 1
+}

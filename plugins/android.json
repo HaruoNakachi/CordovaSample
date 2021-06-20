@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    },
+    "cordova-plugin-advanced-http": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    },
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    },
+    "cordova-plugin-purchase": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "sample.cordova.biz"
+    }
+  }
+}

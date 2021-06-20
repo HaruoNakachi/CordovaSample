@@ -1,13 +1,14 @@
-### ApacheCordova ###
-# Apache Cordova generated files and directories
-bin/*
-!/plugins
-!/plugins/android.json
-!/plugins/fetch.json
-plugins/*
-platforms/*
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-node_modules
-www/index.js
-js/**/*.js
-js/**/*.js.map
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
