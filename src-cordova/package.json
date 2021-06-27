@@ -1,0 +1,41 @@
+{
+  "name": "sample.cordova.biz",
+  "displayName": "Sample",
+  "version": "1.0.10",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-clipboard": "^1.3.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-battery-status": "^2.0.3",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-keyboard": "^1.2.0",
+    "cordova-plugin-purchase": "^10.6.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-device": {},
+      "cordova-clipboard": {},
+      "cordova-plugin-purchase": {
+        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgoR9yZ/hglvHXk26QN5T3i6w4MYtD0B2xmMONu6wfNo5x1RC/rkUer3Xa16aTtdOlfZqMg+QuEJxIPtNmHZkSD6FCXgiBc9ymVQTeTdXz0TfyWepnKYgZkWE40e3bXHcTDhNiZTR9l5T9LLAuoRc6jDyTFxGlk427WcnjPORBSoE6LOJ+5hTYipSf0VQCxWynMBlVmpcDRkIIE2JHm6hLF3d8vZpiDXlVfKyfILy5806FQstyx8vEyNNnHwITDMdzqxtIam5wIc4eG/yo89Zk1t0vN1S5dU+mNDA7qjGKh7EyNEamRQdq164Jr1JXnK9JwOESn9y0eMl3dSDlI1qBQIDAQAB"
+      }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
